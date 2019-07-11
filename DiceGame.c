@@ -17,8 +17,10 @@ int main(){
 
   
   printf("Total value:%d\n",value);
-
- 
+  
+  if(value>=7) printf("You won!\n");
+  else printf("You lost!\n");
+  
   return 0;
 }
 
